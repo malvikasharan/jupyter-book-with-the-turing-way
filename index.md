@@ -3,19 +3,17 @@ layout: lesson
 root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
-## Overview of this tutorial
-
-### 📹 [VIDEO](https://www.youtube.com/watch?v=MdOS6tPq8fc&list=PLBxcQEfGu3Dmdo6oKg6o9V7Q_e7WSX-vu&ab_channel=TheTuringWayCommunity)
-
-> Jupyter Book is an open source project for building publication-ready books with computational files. 
-> The Turing Way is a community-led book project on learning computational skills, which is hosted online as a Jupyter Book. 
-> In this tutorial, you will learn about the collaborative nature of both the projects and create your own book using files and chapters from The Turing Way as examples.
 <!-- this is an html comment -->
 
 {% comment %} This is a comment in Liquid {% endcomment %}
 
 > ## Prerequisites
-
+> 📹 [VIDEO](https://www.youtube.com/watch?v=MdOS6tPq8fc&list=PLBxcQEfGu3Dmdo6oKg6o9V7Q_e7WSX-vu&ab_channel=TheTuringWayCommunity)
+>
+> Jupyter Book is an open source project for building publication-ready books with computational files. 
+> The Turing Way is a community-led book project on learning computational skills, which is hosted online as a Jupyter Book. 
+> In this tutorial, you will learn about the collaborative nature of both the projects and create your own book using files and chapters from The Turing Way as examples.
+>
 > - **prior knowledge of working with GitHub repositories**
 >   - If you haven't worked on GitHub, please take some time to check this [beginners guide to GitHub](https://malvikasharan.github.io/developing_collaborative_document/) (related [video](https://www.youtube.com/watch?v=QRUvQgKbVZQ))
 > - **basic experience working with Markdown files and Jupyter notebooks will be a plus**
