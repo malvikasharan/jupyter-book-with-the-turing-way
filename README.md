@@ -1,75 +1,65 @@
-# FIXME Lesson title
+# JupyterCon Tutorial 2020
 
-[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
+- Website: https://jupytercon.com/
+- Location: Online
+- Date: 5-9 October 2020
 
-**Thanks for contributing to The Carpentries Incubator!**
-This repository provides a blank starting point for lessons to be developed here.
+## Title: Creating a Jupyter Book with The Turing Way
 
-A member of the [Carpentries Curriculum Team](https://carpentries.org/team/)
-will work with you to get your lesson listed on the
-[Community Developed Lessons page][community-lessons]
-and make sure you have everything you need to begin developing your new lesson.
+- **Subtitle:** Create a Jupyter Book from scratch using chapters from *The Turing Way* on Reproducible Research.
+- **Duration:** 2 - 4h (based on familarity)
+- **Audience level**: Novice programmers/Intermediate GitHub users
+- **Prerequisite**: previous experience with version control, GitHub, Markdown, Jupyter Notebooks, basic commands of bash and basic Pathon
+- **Tutorial files**: This tutorial is organised in 7 short modules that are developed in Jupyter Notebooks and paired with introductory videos.
+  - All the introductory videos are available in this [YouTube playlist](https://www.youtube.com/playlist?list=PLBxcQEfGu3Dmdo6oKg6o9V7Q_e7WSX-vu) (named and ordered module-wise).
 
-## What to do next
+### Description
 
-Before you begin developing your new lesson,
-here are a few things we recommend you do:
+**Short Description:**
 
-* [ ] Decide on a title for your new lesson!
-  Once you've chosen a new title, you can set the value for `lesson_title`
-  in [`_config.yml`](_config.yml)
-* [ ] Add the URL to your built lesson pages to the repository description\*
-* [ ] Fill in the fields marked `FIXME` in:
-  * this README
-  * [`_config.yml`](_config.yml)
-* [ ] If you're going to be developing lesson material for the first time
-  according to our design principles,
-  consider reading the [Carpentries Curriculum Development Handbook][cdh]
-* [ ] Consult the [Lesson Example][lesson-example] website to find out more about
-  working with the lesson template
-* [ ] Update this README with relevant information about your lesson
-  and delete this section
+Jupyter Book is an open source project for building publication-ready online books with computational files. *The Turing Way* is a community-led book project on learning computational skills, which is hosted online as a Jupyter Book. In this tutorial, you will learn about the collaborative nature of both projects and create your own Jupyter Book using files and chapters from The Turing Way as examples.
 
-\* To set the URL on GitHub, click the gear wheel button next to **About**
-on the right of the repository landing page.
-The lesson URL structure is **https://carpentries-incubator.github.io/<repository-slug\>**:
-a repository at https://github.com/carpentries-incubator/new-lesson/ will have pages at
-the lesson URL https://carpentries-incubator.github.io/new-lesson/.
+**Session detail:**
 
+The topics and activities to be covered in this workshop are the following:
+- We will start by introducing *The Turing Way* and Jupyter Book.
+- The session leads will present *The Turing Way* as a community-developed book project on research reproducibility, project design, communication, collaboration and ethics.
+- A demo of The Turing Way's GitHub repository will explain how a Jupyter book is created and how they are hosted online.
+- A hands-on session will be carried out to create a Jupyter Book using *The Turing Way* chapters as examples.
+- We will explain what Continuous Integration (CI) is and how to deploy CI tests using GitHub Actions.
+- We will show the collaborative workflow of Jupyter Book that allows GitHub based contributions by the users of the book.
+- The session will end with sharing details on how participants can gain further support when working with Jupyter Books and *The Turing Way*.
 
-## Contributing
+### Learning outcomes
 
-We welcome all contributions to improve the lesson! Maintainers will do their best to help you if you have any
-questions, concerns, or experience any difficulties along the way.
+In this tutorial, our learners will:
+- Get introduced to *The Turing Way* and Jupyter Book projects as reproducible and collaborative platforms for community-developed computational resources.
+- Learn how to create and structure a Jupyter Book using example chapters from *The Turing Way*.
+- Configure and personalise their Jupyter Book locally and connect it to an online GitHub repository.
+- Learn how Jupyter Notebooks can be used as chapters and executed using Binder.
+- Learn what Continuous Integration (CI) and Continuous Deployment (CD) are and how to use them with GitHub Actions.
+- Get introduced to Sphinx-based features in Jupyter Book for citing external resources and cross-referencing its chapters.
 
-We'd like to ask you to familiarize yourself with our [Contribution Guide](CONTRIBUTING.md) and have a look at
-the [more detailed guidelines][lesson-example] on proper formatting, ways to render the lesson locally, and even
-how to write new episodes.
+### Instructor details
 
-Please see the current list of [issues][FIXME] for ideas for contributing to this
-repository. For making your contribution, we use the GitHub flow, which is
-nicely explained in the chapter [Contributing to a Project](http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) in Pro Git
-by Scott Chacon.
-Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg). This indicates that the maintainers will welcome a pull request fixing this issue.
+- Name: Malvika Sharan
+    - Title: Dr.
+    - Organization: *The Turing Way*, The Alan Turing Institute, London, UK
+    - Biography: Malvika is the community manager of *[The Turing Way](https://the-turing-way.netlify.app)* at [The Alan Turing Institute, UK](https://www.turing.ac.uk/). She works with its community of diverse members to develop resources and ways that can make data science accessible for a wider audience.
+Malvika has a PhD in Bioinformatics and she worked at  European Molecular Biology Laboratory, Germany, that helped her solidify her values as an Open Researcher and community builder.
+She is a co-founder of the [Open Life Science](https://openlifesci.org/) mentoring program, a fellow of the [Software Sustainability Institute](https://www.software.ac.uk/) and a board member of [Open Bioinformatics Foundation](https://www.open-bio.org/event-awards/), where she focuses on training resources and fellowship programs to enhance the training, skill building and representation of marginalised groups in data science and bioinformatics.
 
+- Name: Martina G. Vilas
+    - Title: Ms.
+    - Organization: Max Plank Institute for Empirical Aesthetics, Frankfurt, Germany
+    - Biography: Martina is currently working at the [Max-Planck-Institute AE](https://www.aesthetics.mpg.de/en/the-institute/people/m-vilas.html), where she is conducting her research in cognitive neuroscience using computational modeling techniques. She is an open-science advocate who enjoys programming and contributing to open-source projects and communities. As a core contributor and maintainer, she provides infrastructure support for *[The Turing Way](https://the-turing-way.netlify.app)* project.
 
-## Maintainer(s)
+- Name: Sarah Gibson
+    - Title: Dr
+    - Organization: The Alan Turing Institute, London, UK
+    - Biography: Sarah is a Research Software Engineer at [The Alan Turing Institute, UK](https://www.turing.ac.uk/) where she implements software best practices to translate academic research into real world solutions through the Turing’s collaborative network. As a maintainer and operator of the [Binder](https://mybinder.org/) project, she operates a [BinderHub](https://binderhub.readthedocs.io/en/latest/) cluster at the Turing. Sarah is a Software Sustainability Institute Fellow where she focuses on nurturing and diversifying the Binder community. She is also a core contributor of *[The Turing Way](https://the-turing-way.netlify.app)* project.
 
-Current maintainers of this lesson are
+### Project Leads and video contributors for module 2
 
-* FIXME
-* FIXME
-* FIXME
-
-
-## Authors
-
-A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)
-
-## Citation
-
-To cite this lesson, please consult with [CITATION](CITATION)
-
-[cdh]: https://cdh.carpentries.org
-[community-lessons]: https://carpentries.org/community-lessons
-[lesson-example]: https://carpentries.github.io/lesson-example
+- *The Turing Way*: Kirstie Whitaker, head of the Tools, Practices, and Systems research programme, The Alan Turing Institute, UK.
+- Jupyter Book: Chris Holdgraf, member of Project Jupyter and Binder, co-founder of The International Interactive Computing Collaboration (2i2c), USA.
